@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(../img/pc.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form1{
+    background-image: url(../img/cadastro.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    width: 40%;
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 0 0 0;
+}
+
+.form2{
+    background: rgb(255, 255, 255, 0.5);
+    width: 40%;
+    height: 530px;
+    border-radius: 0 0 20px 0;
+}
+
+.bot{
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #374151;
+    color: #cbd5e1;
+    font-size: 17px;
+}

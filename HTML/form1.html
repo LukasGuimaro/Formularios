@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/680-it-developer.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/form1_style.css">
+
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+    <div class="conteiner">
+
+        <div class="form1">
+            <h2>FORM CADASTRO</h2> <br>
+            <form action="pagina/login" method="post" enctype="multipart/form-data">
+                <!-- action: local onde sera enviado os dados -->
+                <!-- method: metodo de envio dos dados | post: envio internamente, sem aparecer na URL -->
+                <label for="nome">
+                    Nome : <br>
+                    <input type="text" id="nome" autofocus placeholder="Digite seu nome" required minlength="4">
+                </label>
+
+                <label for="email">
+                    Email : <br>
+                    <input type="email" id="email" placeholder="Digite seu email" required minlength="4">
+                </label>
+
+                <label for="senha">
+                    Senha : <br>
+                    <input type="password" id="senha" placeholder="Digite sua senha" required minlength="4">
+                </label>
+
+                <label for="sexo">
+                    Sexo:
+                    F <input type="radio" name="sexo" required>
+                    | M <input type="radio" name="sexo" required>
+                </label>
+
+                <label for="descricao">
+                    Descrição: <br>
+                    <textarea name="descricao" cols="20" rows="6" placeholder="Digite a sua descrição..." required
+                        minlength="4"></textarea>
+                </label>
+
+                <label class="termosdeuso">
+                    <input type="checkbox" required> Declaro que li e aceito os termos de política e <a class="termos"
+                        href="http://ifms.edu.br/" target="_blank">termos de serviços</a>
+                </label>
+
+                <button href="#">Fazer Cadastro</button>
+
+            </form>
+
+        </div>
+</body>
+
+</html>
