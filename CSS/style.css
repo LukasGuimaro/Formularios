@@ -12,32 +12,64 @@ body {
     align-items: center;
 }
 
-.form1{
+.form1 {
     background-image: url(../img/cadastro.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.9;
     width: 40%;
     height: 530px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 20px 0 0 0;
+    border-radius: 20px 0 0 20px;
 }
 
-.form2{
-    background: rgb(255, 255, 255, 0.5);
+.form2 {
+    background-image: url(../img/form2.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 40%;
     height: 530px;
-    border-radius: 0 0 20px 0;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.bot{
+.bot1 {
     padding: 8px;
     border-radius: 5px;
     text-decoration: none;
     background-color: #374151;
     color: #cbd5e1;
     font-size: 17px;
+}
+
+.bot2 {
+    padding: 8px;
+    font-size: 17px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #0061F2;
+    color: #cbd5e1;
+}
+
+@media (max-width:930px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    .form1 {
+        border-radius: 20px;
+        margin-bottom: 15px;
+        width: 80%;
+    }
+    .form2 {
+        border-radius: 20px;
+        width: 80%;
+        background-position: center;
+    }
+
 }
